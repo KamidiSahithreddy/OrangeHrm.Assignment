@@ -21,7 +21,7 @@ namespace OrangeHrm.Project.PageClasses
         public IWebElement Password => dr.FindElement(By.XPath("//input[@placeholder='Password']"));
         public IWebElement loginbutton => dr.FindElement(By.XPath("//button[@type='submit']"));
 
-        //public IWebElement aaa => dr.FindElement(By.XPath("(//div[text()='Username'])[1]//following-sibling::div"));
+        
         public void login()
         {
             Username.SendKeys("Admin");
