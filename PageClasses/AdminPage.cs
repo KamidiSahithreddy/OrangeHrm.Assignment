@@ -30,7 +30,7 @@ namespace OrangeHrm.Project.PageClasses
             ConfirmDelete.Click();
             Thread.Sleep(3000);
             //Assert.IsTrue(SecondRow.Displayed, "The 2nd record  is not displayed as expected");
-            Console.WriteLine("The 2nd Row record  is not displayed as expected :" +SecondRow.Displayed);
+            Console.WriteLine("The 2nd Row record is not displayed as expected :" +SecondRow.Displayed);
         }
     }
 }
